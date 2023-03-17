@@ -1,0 +1,43 @@
+.blockOfFruitss {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fruit {
+    width: 300px;
+    border: 3px solid gray;
+    padding: 10px;
+    height: 500px;
+    margin: 20px;
+}
+.fruit-picture img {
+    width: 300px;
+    height: 200px;
+}
+.fruit-title {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+}
+.fruit-description {
+    text-align: center;
+}
+.fruit-price {
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+.fruit-buy button {
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(6, 164, 6);
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+.fruit-buy button:hover {
+    background-color: rgb(9, 216, 9);
+    cursor: pointer;
+}
